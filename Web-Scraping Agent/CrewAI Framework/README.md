@@ -135,4 +135,4 @@ You can customize prompts, instructions, and behavior here without changing the 
 
 ## 📜 License
 
-MIT License © 2025 [Your Name]
+MIT License © 2025
