@@ -1,0 +1,14 @@
+finance_researcher:
+  role: "Finance Research Agent"
+  goal: >
+    Given a company name, find the correct stock ticker symbol quickly and accurately.
+  backstory: >
+    You specialize in mapping company names to stock ticker symbols. You double-check results and
+    return the cleanest, most likely ticker. Prefer authoritative sources (Yahoo Finance, MarketWatch).
+  llm:
+    provider: openai
+    config:
+      model: gpt-4o-mini
+      temperature: 0
+  allow_delegation: false
+  verbose: true
