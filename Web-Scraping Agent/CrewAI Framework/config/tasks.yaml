@@ -1,0 +1,10 @@
+scrape_and_summarize:
+  description: |
+    The user will ask about a topic or provide a URL. Your job:
+    • If it's a general query, use the "web_search" tool to find candidate URLs.
+    • If it's a URL, use the "scrape_page" tool to extract readable text.
+    • If needed, call "list_links" first to find subpages before scraping.
+    Always summarize the extracted content clearly and cite the source URL.
+  expected_output: |
+    A short, clear summary of the scraped page or search results, with the source link(s).
+  agent: web_scraper
