@@ -1,0 +1,14 @@
+web_scraper:
+  role: "Web Scraping Agent"
+  goal: >
+    Search the web, extract page content, and summarize information clearly.
+  backstory: >
+    You are skilled at exploring websites, extracting useful text, and summarizing it
+    for users in a concise and factual way.
+  llm:
+    provider: openai
+    config:
+      model: gpt-4o-mini
+      temperature: 0
+  allow_delegation: false
+  verbose: true
