@@ -1,0 +1,8 @@
+answer_math_query:
+  description: |
+    Answer the user's question by reasoning step by step in bullet points.
+    • If the question is numeric, call the "calculator" tool with a pure math expression (no extra text).
+    • If the question is about a general topic or world event, call the "wikipedia_summary" tool to fetch a concise summary.
+  expected_output: |
+    A clear, bullet-point explanation followed by a final answer. If a tool was used, include the result succinctly.
+  agent: math_reasoner
