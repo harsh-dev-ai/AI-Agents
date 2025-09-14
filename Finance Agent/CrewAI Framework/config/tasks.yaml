@@ -1,0 +1,9 @@
+lookup_ticker:
+  description: |
+    Find the stock ticker symbol for the company specified by the user.
+    - Use the `ticker_lookup` tool with the company name.
+    - If multiple candidates appear, choose the most likely match.
+    - Return ONLY the ticker (e.g., AMZN). If not found, return "No ticker found".
+  expected_output: |
+    A single ticker symbol like "AMZN", "AAPL", or "GOOGL". If unavailable, "No ticker found".
+  agent: finance_researcher
