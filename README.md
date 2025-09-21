@@ -113,4 +113,4 @@ PRs welcome! Suggested improvements:
 
 ## 📜 License
 
-MIT © 2025 Harsh Dev (update as you prefer)
+MIT © 2025
